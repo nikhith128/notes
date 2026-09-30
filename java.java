@@ -27,3 +27,35 @@ Student s1 = new Student();
           │ 80          │
           └─────────────┘
 
+class Student
+{
+    String name;
+    int marks;
+}
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+        Student s1 = new Student();                               Student     s1       new Student()
+                                                                    │         │            │
+                                                                  class    variable    creates object
+                                                                    
+        s1.name = "Nikhith";
+        s1.marks = 80;
+
+        System.out.println(s1.name);
+        System.out.println(s1.marks);
+    }
+}
+//create another object?
+Student s1 = new Student();
+Student s2 = new Student();
+
+s1 ───► Student
+        name = Nikhith
+        marks = 80
+
+s2 ───► Student
+        name = Anil
+        marks = 90
