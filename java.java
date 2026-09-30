@@ -59,3 +59,12 @@ s1 ───► Student
 s2 ───► Student
         name = Anil
         marks = 90
+
+    
+//  8. Why did you use private?
+//You wrote:
+private String usnNum;
+// private means other classes/objects cannot directly access that variable.
+//For example:
+s1.usnNum = "AL25CS094";
+//will not work if usnNum is private.
